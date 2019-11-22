@@ -16,4 +16,8 @@ export class CartService {
   getAll() {
     return this.products;
   }
+
+  remove(product) {
+    return this.products = this.products.filter(v => v.name !== product.name);
+  }
 }
