@@ -1,0 +1,44 @@
+.mark {
+  background-color: #CFD8DC;
+  color: white;;
+}
+.mark:hover {
+  background-color: #BBD8DC;
+}
+
+ul {
+  list-style: none;
+  width: 15em;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  position: relative;
+  left: 0px;
+  background-color: #eee;
+  border-radius: 6px;
+  margin: .5em;
+  height: 1.5em;
+  padding: .3em 0;
+}
+
+li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: 1em;
+}
+
+li b {
+  color: white;
+  background-color:#405061;
+  display: inline-block;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -5px;
+  height: 1.5em;
+  margin-right: .8em;
+  border-radius: 6px 0 0 6px;
+  padding: 0.6em 0.7em 0 0.7em;
+}
