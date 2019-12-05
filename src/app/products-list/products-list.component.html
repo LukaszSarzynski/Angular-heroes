@@ -7,7 +7,7 @@
         </a>
   </h3>
   <p *ngIf="product.description">
-    Description: {{product.description}}
+    Description: {{product.description | slice:0:50}}
   </p>
   <button (click)="shareWindow()">Share</button>
   <app-product-alert [product]="product" (notify)="onNotify()"></app-product-alert>

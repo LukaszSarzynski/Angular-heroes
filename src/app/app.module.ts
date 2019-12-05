@@ -8,6 +8,7 @@ import { ProductAlertComponent } from './product-alert/product-alert.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { CartService } from './cart.service';
+import { HeaderComponent } from './navigation/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CartService } from './cart.service';
     ProductsListComponent,
     ProductAlertComponent,
     ProductDetailsComponent,
-    CartComponent
+    CartComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

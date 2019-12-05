@@ -18,6 +18,12 @@ export class CartService {
   }
 
   remove(product) {
-    return this.products = this.products.filter(v => v.name !== product.name);
+    // return this.products = this.products.filter(v => v.name !== product.name);
+    this.products.splice(this.products.indexOf(product), 1); // remove only one elemets
+    return this.products;
+  }
+
+  countIteam(): number {
+    return this.products.length;
   }
 }
